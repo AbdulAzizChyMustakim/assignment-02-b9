@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish';
+}
+/* nav start */
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+    
+    
+}
+nav li{
+    text-decoration: none;
+    list-style: none;
+    gap: 44px;
+    padding: 10px;
+}
+.nav-home{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+.naver-li{
+    color:  #424247;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.logo{
+    display: flex;
+    
+}
+.logo-name{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 17px;
+    margin-top: 52px;
+}
+.logo-span{
+    color: #FF5400;
+}
+.logo-pic{
+    width: 48px;
+    height: 56.008px;
+    margin-top: 52px;
+    margin-left: 135px;
+
+}
+.menu{
+    display: flex;
+    margin-top: 63px;
+    margin-right: 215px;
+    
+}
+/* banner start */
+.banner-part{
+    width: 1170px;
+    height: 500px; 
+    background-image: linear-gradient(to bottom,#070211, #07021100), url("Images/Group\ 13\ \(1\)\ \(1\).png");
+    margin-top: 50px;
+    margin-right: 135px;
+    margin-left: 135px;
+    border-radius: 16px;
+    text-align: center;
+}
+.banner-h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 106px;
+    padding-bottom: 24px;
+}
+.banner-p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
+.input-part{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 48px;
+}
+#inp{
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#inp-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 34px 16px 34px;
+    gap: 8px;
+
+}
+.arrow{
+    position: relative;
+}
