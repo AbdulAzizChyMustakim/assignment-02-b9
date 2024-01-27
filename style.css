@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: 'Mulish';
 }
                         /* nav start */
@@ -59,7 +60,9 @@ nav li{
     margin-top: 63px;
     margin-right: 0px;
     
-    
+}
+.menu-option{
+    display: none;
 }
                         /* banner start */
 .banner-part{
@@ -68,7 +71,6 @@ nav li{
     height: 500px; 
     background-image: linear-gradient(to bottom,#070211, #07021100), url("Images/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
-    
     margin: auto;
     margin-top: 50px;
     border-radius: 16px;
@@ -394,3 +396,127 @@ nav li{
     font-weight: 800;
     padding: 0px;
 }
+                /* footer start */
+ footer{
+   
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+                }
+ .footer-container{
+    padding-top: 110px;
+        }
+#logo-footer{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+                }
+    .logo-footer-pic{
+        padding-right: 15px;
+    }
+
+     footer p{
+        text-align: center;
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+        padding-top: 15px;
+     }
+     .social-logo{
+        width: 100%;
+        text-align: center;
+        padding-top: 35px;
+     }
+     .reserved{
+        margin-top: 100px;
+        padding-bottom: 110px;
+     }
+    
+
+
+
+
+
+                     /* mobile */
+     @media screen and (max-width: 576px) {
+                        /* nav */
+nav{
+    width: 500px;
+    height: 64px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    
+}
+.logo{
+    margin-left: 20px;
+}
+.logo-pic{
+    width: 28.724px;
+    height: 33.516px;
+   
+}
+.logo-name{
+    font-size: 21.543px;
+}
+.menu{
+    display: none;
+}
+
+            /* banner */
+.banner-part{
+    width: 380px;
+    height: 483px;
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+            }
+.banner-h1{
+    font-size: 22px;
+    font-weight: 800;
+    padding-top: 32px;
+    border: 2px solid salmon;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.banner-p{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    border: 2px solid salmon;
+    margin-top: 0px;
+}
+.input-part{
+    display: flex;
+    width: 287px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-right: 80px;
+    margin-left: 40px;
+    border: 2px solid salmon;
+}
+#where{
+    width: 255px;
+    height: 52px;
+    padding: 10;
+}
+#inp{
+    width: 255px;
+    height: 52px;
+    padding: 10px;
+}
+#inp-btn{
+    width: 255px;
+    height: 52px;
+    justify-content: center;
+  
+}
+
+     }
