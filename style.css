@@ -585,4 +585,16 @@ nav{
     width: 335px;
     height: 176px;
 }
+                /* why choose part */
+.all-boxes{
+    flex-direction: column;
+   
+}
+.box-container{
+    flex-direction: column;
+}
+.box1, .box2, .box3{
+    width: 335px;
+    height: 289px;
+}
      }
