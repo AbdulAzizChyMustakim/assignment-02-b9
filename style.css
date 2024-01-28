@@ -476,7 +476,6 @@ nav{
     font-size: 22px;
     font-weight: 800;
     padding-top: 32px;
-    border: 2px solid salmon;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
@@ -486,7 +485,7 @@ nav{
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
-    border: 2px solid salmon;
+    
     margin-top: 0px;
 }
 .input-part{
@@ -500,7 +499,7 @@ nav{
     margin-bottom: 32px;
     margin-right: 80px;
     margin-left: 40px;
-    border: 2px solid salmon;
+    
 }
 #where{
     width: 255px;
@@ -518,5 +517,28 @@ nav{
     justify-content: center;
   
 }
+                    /* popular part */
+ .popular-container{
+    flex-direction: column;
+    
+    margin-top: 24px;
+    
 
+ }
+ .popular-h2{
+    font-size: 20px;
+ }
+ .popular-p{
+    font-size: 14px;
+    width: 335px;
+    
+ }
+ .popular-img{
+    margin: auto;
+    margin-top: 24px;
+    width: 335px;
+    height: 345px;
+    border-radius: 16px;
+
+ }
      }
