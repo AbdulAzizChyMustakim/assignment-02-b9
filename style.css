@@ -520,10 +520,9 @@ nav{
                     /* popular part */
  .popular-container{
     flex-direction: column;
-    
     margin-top: 24px;
+    height: 1100px;
     
-
  }
  .popular-h2{
     font-size: 20px;
@@ -541,4 +540,49 @@ nav{
     border-radius: 16px;
 
  }
+                    /* Destination Part */
+.destiantion-part{
+    margin: auto;
+    height: 1530px;
+    width: 340px;
+    padding-top: 0px;
+    
+    
+}
+.destination-txt{
+    margin-top: 0px;
+}
+.destination-title{
+    
+    font-size: 20px;
+    
+}
+.destination-p{
+    font-size: 14px;
+    
+}
+
+.row1{
+    display: flex;
+    flex-direction: column;
+}
+.row2{
+    display: flex;
+    flex-direction: column;
+}
+.row3{
+    display: flex;
+    flex-direction: column;
+}
+.row1 > img{
+    width: 335px;
+    height: 176px;
+}
+.row2 > img{
+    width: 335px;
+    height: 176px;
+}.row3 > img{
+    width: 335px;
+    height: 176px;
+}
      }
