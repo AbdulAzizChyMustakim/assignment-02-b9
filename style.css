@@ -399,9 +399,9 @@ nav li{
 }
                 /* footer start */
  footer{
-   
     background: rgba(19, 19, 24, 0.05);
     margin-top: 100px;
+    
                 }
  .footer-container{
     padding-top: 110px;
@@ -429,13 +429,18 @@ nav li{
         text-align: center;
         padding-top: 35px;
      }
+.line{
+    width: 870px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: auto;
+    margin-top: 50px;
+}
      .reserved{
-        margin-top: 100px;
+        margin-top: 50px;
         padding-bottom: 110px;
      }
     
-
-
 
 
 
@@ -447,8 +452,6 @@ nav{
     height: 64px;
     margin-left: 0px;
     margin-right: 0px;
-
-    
 }
 .logo{
     margin-left: 20px;
@@ -463,6 +466,14 @@ nav{
 }
 .menu{
     display: none;
+}
+.menu-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 50px;
+   margin-right:100px;
+
 }
 
             /* banner */
@@ -646,5 +657,14 @@ nav{
 }
 .right-seal h1{
     font-size: 20px;
+}
+                /* footer part */
+footer{
+margin-right: 0px;
+}
+.line{
+    width: 335px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
 }
      }
