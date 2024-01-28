@@ -342,16 +342,17 @@ nav li{
     margin-bottom: 45px;
   }
 .left input{
-    width: 200px;
-    height: 40px;
+    width: 393px;
+    height: 52px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     border: none;
     padding: 16px 250px 16px 20px;
     margin-bottom: 16px;
+  
   }
 .left button{
-    width: 465px;
+    width: 393px;
     height: 52px;
     border-radius: 8px;
     background: #FF5400;
@@ -366,7 +367,7 @@ nav li{
 .right{
     width: 672px;
     height: 422px;
-    
+    position: relative;
 }
 
 .right-seal{
@@ -439,14 +440,14 @@ nav li{
 
 
                      /* mobile */
-     @media screen and (max-width: 576px) {
+     @media screen and (max-width: 600px) {
                         /* nav */
 nav{
     width: 500px;
     height: 64px;
     margin-left: 0px;
     margin-right: 0px;
-    
+
     
 }
 .logo{
@@ -588,7 +589,7 @@ nav{
                 /* why choose part */
 .all-boxes{
     flex-direction: column;
-   
+
 }
 .box-container{
     flex-direction: column;
@@ -596,5 +597,54 @@ nav{
 .box1, .box2, .box3{
     width: 335px;
     height: 289px;
+}
+            /* newsletter part */
+.left-right{
+    flex-direction: column;
+    margin-top: 24px;
+}
+.left{
+    width: 335px;
+    height: 353px;
+    margin: auto;
+    padding: 25px;
+}
+.left h3{
+    font-size: 20px;
+}
+.left p{
+    font-size: 14px;
+}
+.left input{
+    width: 288px;
+    height: 52px;
+    padding: 15px 145px 15px 20px ;
+}
+.left button{
+    width: 288px;
+    height: 52px;
+}
+.right{
+    width: 335px;
+    height: 300px;
+    margin: auto;
+    margin-top: 16px;
+}
+.right img{
+    width: 335px;
+    height: 300px;
+}
+.right-seal{
+    width: 214.023px;
+    height: 79.268px;
+    padding: 15px;
+    bottom: 30px;
+    right: -5px;
+}
+.right-seal h3{
+    font-size: 16px;
+}
+.right-seal h1{
+    font-size: 20px;
 }
      }
